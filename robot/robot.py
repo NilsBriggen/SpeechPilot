@@ -13,16 +13,12 @@ while True:
     print(command)
     if command == "forward":
         c.forward(DISTANCE)
-        pass
     elif command == "backward":
         c.reverse(DISTANCE)
-        pass
     elif command == "left":
         c.left(ANGLE)
-        pass
     elif command == "right":
         c.right(ANGLE)
-        pass
     elif command == "exit":
         break
 
