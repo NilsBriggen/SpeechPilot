@@ -6,24 +6,24 @@ ANGLE = 90
 s = server_wlan.Server()
 c = controller.Controller()
 
+# Wait for connection
 s.wait_for_connection()
 
 while True:
+    # Receive command from client
     command = s.receive_command()
     print(command)
+    # Execute command
     if command == "forward":
         c.forward(DISTANCE)
-        pass
     elif command == "backward":
         c.reverse(DISTANCE)
-        pass
     elif command == "left":
         c.left(ANGLE)
-        pass
     elif command == "right":
         c.right(ANGLE)
-        pass
     elif command == "exit":
         break
 
+    # Send response to client
     s.send_response("OK")
