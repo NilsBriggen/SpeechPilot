@@ -12,10 +12,12 @@ class Client:
         # Connect to server on Raspberry Pi
         while True:
             try:
+                print("Trying to connect to server...")
                 self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 self.socket.connect(self.server_address)
                 break
             except Exception as e:
+                cls()
                 print(f"Could not connect to server. Retrying...\n{e}")
                 time.sleep(3)
 
