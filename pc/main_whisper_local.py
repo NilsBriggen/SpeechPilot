@@ -15,6 +15,8 @@ def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
 def main():
+    #connect to server
+    c.connect()
     #load model
     model = whisper.load_model("medium.en")
     #move model to gpu

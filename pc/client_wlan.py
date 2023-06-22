@@ -9,7 +9,10 @@ class Client:
     def __init__(self, ip):
         cls()
         self.server_address = (ip , 12345)
-        # Connect to server on Raspberry Pi
+        
+    # Connect to server on Raspberry Pi
+    def connect(self):
+        cls()
         while True:
             try:
                 print("Trying to connect to server...")
@@ -23,11 +26,18 @@ class Client:
 
     # Send command to server
     def send_command(self, command):
-        response = b""
-        while response != b"OK":
-            self.socket.sendall(command.encode())
-            response = self.socket.recv(1024)
+        try:
+            response = b""
+            while response != b"OK":
+                self.socket.sendall(command.encode())
+                response = self.socket.recv(1024)
+        except:
+            cls()
+            print("Connection lost.")
+            self.connect()
+            self.send_command(command)
 
     # Close connection
     def close(self):
         self.socket.close()
+
