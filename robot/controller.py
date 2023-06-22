@@ -4,8 +4,8 @@ class Controller():
 	def __init__(self):
 		self.bus = smbus.SMBus(1) # Setting the correct Bus output
 		self.ADDRESS = 0x22 # Setting output address for the picon zero
-		self.MOVETIME = 0.5 # The time it takes for the robot to roll 15cm
-		self.TURNTIME = 0.5 # The time it takes for the robot to make a 90° turn
+		self.MOVETIME = 0.4 # The time it takes for the robot to roll 15cm
+		self.TURNTIME = 0.3 # The time it takes for the robot to make a 90° turn
 		self.SPEED = 100 # The speed with which the robot makes a turn
 		self.bus.write_byte_data(self.ADDRESS, 20, 0) # Resetting the Picon Board. '20' clears all input/output configurations
 		

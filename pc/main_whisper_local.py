@@ -8,7 +8,7 @@ seconds = 3
 filename = "output.wav"
 
 p = pyaudio.PyAudio()
-c = client_wlan.Client("192.168.137.109")
+c = client_wlan.Client("192.168.1.194")
 
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
