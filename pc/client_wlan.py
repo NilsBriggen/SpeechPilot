@@ -18,9 +18,10 @@ class Client:
 
 
     def send_command(self, command):
-        self.socket.sendall(command.encode())
-        response = self.socket.recv(1024)
-        time.sleep(2)
+        response = b""
+        while response != b"OK":
+            self.socket.sendall(command.encode())
+            response = self.socket.recv(1024)
 
     def close(self):
         self.socket.close()
