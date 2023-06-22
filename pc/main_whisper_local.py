@@ -10,11 +10,14 @@ filename = "output.wav"
 p = pyaudio.PyAudio()
 c = client_wlan.Client("192.168.1.194")
 
+# Function for clearing the console
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
 def main():
+    #load model
     model = whisper.load_model("medium.en")
+    #move model to gpu
     model.cuda()
     try:
         while True:
@@ -26,7 +29,7 @@ def main():
                             rate=fs,
                             frames_per_buffer=chunk,
                             input=True)
-            frames = []  # Initialize array to store frames
+            frames = []  # Initialize array to store audio frames
             for i in range(0, int(fs / chunk * seconds)):
                 data = stream.read(chunk)
                 frames.append(data)
@@ -45,6 +48,7 @@ def main():
             #transcribe audio file
             response = str(model.transcribe(filename)["text"]).lower()
 
+            #send command to robot
             if "right" in response:
                 c.send_command("right")
             elif "left" in response:
