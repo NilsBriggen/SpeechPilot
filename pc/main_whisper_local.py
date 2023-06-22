@@ -14,6 +14,7 @@ def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
 def main():
+    c.connect()
     model = whisper.load_model("medium.en")
     model.cuda()
     try:
