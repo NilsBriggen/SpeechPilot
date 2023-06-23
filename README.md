@@ -32,6 +32,14 @@ Problems:
 - The Wlan communication gets refused by the server (probably because of a firewall)
 - The Bluetooth communication doesn't work in Linux
 
+### 22.06.2023
+Done:
+- The Wlan communication works now
+- The Robot fully works with the "remote" speech recognition
+
+Problems:
+- My own model still doesn't work
+
 ## Todo:
 - Try if the tiny.en model runs on the Raspberry Pi Zero
-- Figure out a way to talk to the raspberry pi zero over wifi/bluetooth
+- Try to fix my own model
