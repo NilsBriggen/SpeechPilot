@@ -40,6 +40,14 @@ Done:
 Problems:
 - My own model still doesn't work
 
+### 23.06.2023
+Done:
+- The tiny.en model is too large for the Raspberry Pi Zero. The conversion will have to be done outside of the Raspberry Pi
+- Cleaned up code
+
+Problems:
+- My own model still doesn't work
+
 ## Todo:
-- Try if the tiny.en model runs on the Raspberry Pi Zero
-- Try to fix my own model
+- Try to fix my model
+- Write the paper
