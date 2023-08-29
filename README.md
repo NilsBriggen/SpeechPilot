@@ -1,5 +1,14 @@
 # SpeechPilot
 A library to control a robot with speech recognition
+
+## Requirements
+- [Python 3.10.13](https://www.python.org/downloads/release/python-31013/)
+- [Whisper](https://pypi.org/project/openai-whisper/)
+- [pyAudio](https://pypi.org/project/PyAudio/)
+### Optional
+[CUDA 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive). This is technically not required, but it will speed up the speech recognition by a lot. **Needs a Nvidia GPU!** 
+For this to work you also need [Visual Studio 2019](https://visualstudio.microsoft.com/de/downloads/) or above.
+You also need to install [pyTorch](https://pytorch.org/get-started/locally/) with CUDA support
 <br>
 <br>
 ## My Progress in SpeechPilot
