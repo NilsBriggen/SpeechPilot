@@ -9,6 +9,9 @@ A library to control a robot with speech recognition
 [CUDA 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive). This is technically not required, but it will speed up the speech recognition by a lot. **Needs a Nvidia GPU!** 
 For this to work you also need [Visual Studio 2019](https://visualstudio.microsoft.com/de/downloads/) or above.
 You also need to install [pyTorch](https://pytorch.org/get-started/locally/) with CUDA support
+### Additional tools
+#### Graph_generator.py
+The Graph generator was used to generate the example picture in my work report. It generates a simple sine wave with a bar graph below it. There are two different bar graphs to show the difference between varying sample rates.
 <br>
 <br>
 ## My Progress in SpeechPilot
