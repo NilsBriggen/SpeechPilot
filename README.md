@@ -15,7 +15,7 @@ The Graph generator was used to generate the example picture in my work report. 
 <br>
 <br>
 ![The generated graph](Abtastraten.png "The generated graph")
-[Sample rate graph](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Abtastraten.png) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1)
+[Sample rate graph](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Abtastraten.png) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 <br>
 <br>
 ## My Progress in SpeechPilot
