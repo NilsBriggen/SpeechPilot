@@ -13,6 +13,7 @@ You also need to install [pyTorch](https://pytorch.org/get-started/locally/) wit
 #### Graph_generator.py
 The Graph generator was used to generate the example picture in my work report. It generates a simple sine wave with a bar graph below it. There are two different bar graphs to show the difference between varying sample rates.
 <br>
+<br>
 ![The generated graph](Abtastraten.png "The generated graph")
 <br>
 <br>
