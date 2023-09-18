@@ -27,6 +27,19 @@ The Graph generator was used to generate the example picture in my work report. 
 ![The communication system](CommunicationSystem.svg "The communication system")
 <br>
 <br>
+#### Icons used in pictures
+Google LLC. Voice Selection. Lizenziert unter Apache-Lizenz 2.0
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Avoice_selection%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+Google LLC. Mic. Lizenziert unter Apache-Lizenz 2.0
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Amic%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+Google LLC. Wifi. Lizenziert unter Apache-Lizenz 2.0
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Awifi%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+Google LLC. Smart Toy. Lizenziert unter Apache-Lizenz 2.0
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Asmart_toy%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+Google LLC. Computer. Lizensiert unter Apache-Lizenz 2.0
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Acomputer%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+<br>
+<br>
 ## My Progress in SpeechPilot
 ### 19.06.2023
 
