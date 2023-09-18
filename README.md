@@ -19,10 +19,12 @@ The Graph generator was used to generate the example picture in my work report. 
 ### Pictures
 [The basic system](https://github.com/NilsBriggen/SpeechPilot/blob/stable/System.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 ![The basic system](System.svg "The basic system")
+
 [The computer system](https://github.com/NilsBriggen/SpeechPilot/blob/stable/ComputerSystem.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 ![The computer system](ComputerSystem.svg "The computer system")
+
 [The communication system](https://github.com/NilsBriggen/SpeechPilot/blob/stable/CommunicationSystem.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-![The communication system](CommunicationSystem "The communication system")
+![The communication system](CommunicationSystem.svg "The communication system")
 <br>
 <br>
 ## My Progress in SpeechPilot
