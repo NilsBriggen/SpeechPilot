@@ -17,6 +17,9 @@ The Graph generator was used to generate the example picture in my work report. 
 ![The generated graph](Abtastraten.png "The generated graph")
 [Sample rate graph](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Abtastraten.png) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 ### Pictures
+[Example table](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Table.png) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+![Example table](Table.png "Example table")
+
 [The basic system](https://github.com/NilsBriggen/SpeechPilot/blob/stable/System.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 ![The basic system](System.svg "The basic system")
 
