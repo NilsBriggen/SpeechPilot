@@ -4,7 +4,9 @@ class Controller():
 	def __init__(self):
 		self.bus = smbus.SMBus(1) # Setting the correct Bus output
 		self.ADDRESS = 0x22 # Setting output address for the picon zero
-		self.MOVETIME = 0.4 # The time it takes for the robot to roll 15cm
+		self.REFERENCEDISTANCE = 15 # Defines the distance the robot travels in self.MOVETIME seconds
+		self.MOVETIME = 0.4 # The time it takes for the robot to roll self.REFERENCEDISTANCE
+		self.REFERENCEANLGE = 90 # The angle the robot rotates in self.TURNTIME seconds
 		self.TURNTIME = 0.3 # The time it takes for the robot to make a 90° turn
 		self.SPEED = 100 # The speed with which the robot makes a turn
 		self.bus.write_byte_data(self.ADDRESS, 20, 0) # Resetting the Picon Board. '20' clears all input/output configurations
@@ -30,7 +32,7 @@ class Controller():
 		# With the given parameters, calculate how long the wheels have to spin for a given distance
 		self.setMotor(0, self.SPEED)
 		self.setMotor(1, self.SPEED)
-		travelLength = (distance/15)*self.MOVETIME
+		travelLength = (distance/self.REFERENCEDISTANCE)*self.MOVETIME
 		time.sleep(travelLength)
 		self.stop()
 		
@@ -38,13 +40,13 @@ class Controller():
 		# With the given parameters, calculate how long the wheels have to spin for a given distance
 		self.setMotor(0, -self.SPEED)
 		self.setMotor(1, -self.SPEED)
-		travelLength = (distance/15)*self.MOVETIME
+		travelLength = (distance/self.REFERENCEDISTANCE)*self.MOVETIME
 		time.sleep(travelLength)
 		self.stop()
 		
 	def left(self, angle):
 		# With the given parameters, calculate how long the wheels have to spin for a given angle
-		turnLength = (angle/90)*self.TURNTIME
+		turnLength = (angle/self.REFERENCEANGLE)*self.TURNTIME
 		self.setMotor(0, -self.SPEED)
 		self.setMotor(1, self.SPEED)
 		time.sleep(turnLength)
@@ -52,7 +54,7 @@ class Controller():
 		
 	def right(self, angle):
 		# With the given parameters, calculate how long the wheels have to spin for a given angle
-		turnLength = (angle/90)*self.TURNTIME
+		turnLength = (angle/self.REFERENCEANGLE)*self.TURNTIME
 		self.setMotor(0, self.SPEED)
 		self.setMotor(1, -self.SPEED)
 		time.sleep(turnLength)
