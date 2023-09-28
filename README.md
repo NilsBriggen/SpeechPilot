@@ -31,6 +31,9 @@ The Graph generator was used to generate the example picture in my work report. 
 
 [The network configuration](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Config.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
 ![The network configuration](Config.svg "The network configuration")
+
+[Result evaluation](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Evaluation.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
+![Result evaluation](Evaluation.svg "Result evaluation")
 <br>
 <br>
 #### Icons used in pictures
