@@ -3,6 +3,7 @@ import whisper, os, pyaudio, wave, client_wlan
 
 ENABLE_WLAN_CLIENT = False
 ENABLE_CUDA = True
+IP_ADDRESS = "192.168.1.194"
 
 
 # Function for clearing the console
@@ -33,7 +34,7 @@ p = pyaudio.PyAudio()
 def main():
     # connect to server
     if ENABLE_WLAN_CLIENT:
-        c = client_wlan.Client("192.168.1.194")
+        c = client_wlan.Client(IP_ADDRESS)
         c.connect()
     # load model
     cls()
