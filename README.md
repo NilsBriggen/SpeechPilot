@@ -42,28 +42,28 @@ The Graph generator was used to generate the example picture in my work report. 
 #### Icons used in pictures
 Google LLC. Voice Selection. Lizenziert unter Apache-Lizenz 2.0
 <br>
-https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Avoice_selection%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Avoice_selection%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048<br>
 Google LLC. Mic. Lizenziert unter Apache-Lizenz 2.0
 <br>
-https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Amic%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Amic%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048<br>
 Google LLC. Wifi. Lizenziert unter Apache-Lizenz 2.0
 <br>
-https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Awifi%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Awifi%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048<br>
 Google LLC. Smart Toy. Lizenziert unter Apache-Lizenz 2.0
 <br>
-https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Asmart_toy%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Asmart_toy%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048<br>
 Google LLC. Computer. Lizensiert unter Apache-Lizenz 2.0
 <br>
-https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Acomputer%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Acomputer%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024<br>
 Google LLC. Laptop Windows. Lizenziert unter Apache-Lizenz 2.0
 <br>
-https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Alaptop_windows%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Alaptop_windows%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024<br>
 Google LLC. Router. Lizenziert unter Apache-Lizenz 2.0
 <br>
-https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Arouter%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Arouter%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024<br>
 Google LLC. Code. Lizenziert unter Apache-Lizenz 2.0
 <br>
-https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Acode%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Acode%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024<br>
 Google LLC. Terminal. Lizenziert unter Apache-Lizenz 2.0
 <br>
 https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Aterminal%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
