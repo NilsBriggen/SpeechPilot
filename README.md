@@ -34,6 +34,9 @@ The Graph generator was used to generate the example picture in my work report. 
 
 [Result evaluation](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Evaluation.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
 ![Result evaluation](Evaluation.svg "Result evaluation")
+
+[WLAN Communication](https://github.com/NilsBriggen/SpeechPilot/blob/stable/WLAN.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
+![WLAN Communication](WLAN.svg "WLAN Communication")
 <br>
 <br>
 #### Icons used in pictures
@@ -52,6 +55,18 @@ https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Asmart_to
 Google LLC. Computer. Lizensiert unter Apache-Lizenz 2.0
 <br>
 https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Acomputer%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+Google LLC. Laptop Windows. Lizenziert unter Apache-Lizenz 2.0
+<br>
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Alaptop_windows%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+Google LLC. Router. Lizenziert unter Apache-Lizenz 2.0
+<br>
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Arouter%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+Google LLC. Code. Lizenziert unter Apache-Lizenz 2.0
+<br>
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Acode%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
+Google LLC. Terminal. Lizenziert unter Apache-Lizenz 2.0
+<br>
+https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Aterminal%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024
 <br>
 <br>
 ## My Progress in SpeechPilot
