@@ -29,14 +29,17 @@ The Graph generator was used to generate the example picture in my work report. 
 [The communication system](https://github.com/NilsBriggen/SpeechPilot/blob/stable/CommunicationSystem.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
 ![The communication system](CommunicationSystem.svg "The communication system")
 
-[The network configuration](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Config.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
-![The network configuration](Config.svg "The network configuration")
+[The network configuration](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Architecture.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
+![The network configuration](Architecture.svg "The network configuration")
 
 [Result evaluation](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Evaluation.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
 ![Result evaluation](Evaluation.svg "Result evaluation")
 
 [WLAN Communication](https://github.com/NilsBriggen/SpeechPilot/blob/stable/WLAN.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
 ![WLAN Communication](WLAN.svg "WLAN Communication")
+
+[Configuration](https://github.com/NilsBriggen/SpeechPilot/blob/stable/Configuration.svg) © 2023 by [Nils Briggen](https://github.com/NilsBriggen) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br>
+![Configuration](Configuration.svg "Configuration")
 <br>
 <br>
 #### Icons used in pictures
