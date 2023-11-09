@@ -1,4 +1,5 @@
 # SpeechPilot
+![Logo](Logo.jpeg "Logo")
 A library to control a robot with speech recognition
 
 ## Requirements
