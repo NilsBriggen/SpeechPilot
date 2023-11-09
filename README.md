@@ -1,5 +1,4 @@
-# SpeechPilot
-![Logo](Logo.png "Logo")
+# SpeechPilot ![Logo](Logo.png "Logo") {:height="100" width="150"}
 A library to control a robot with speech recognition
 
 ## Requirements
