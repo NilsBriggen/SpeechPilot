@@ -1,4 +1,4 @@
-<p># SpeechPilot ![Logo](Logo.png "Logo")</p>
+# SpeechPilot ![Logo](Logo.png "Logo")
 A library to control a robot with speech recognition
 
 ## Requirements
