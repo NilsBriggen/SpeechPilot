@@ -1,5 +1,5 @@
 # SpeechPilot
-![Logo](Logo.jpeg "Logo")
+![Logo](Logo.png "Logo")
 A library to control a robot with speech recognition
 
 ## Requirements
