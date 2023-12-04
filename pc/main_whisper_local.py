@@ -1,9 +1,9 @@
 import whisper, os, pyaudio, wave, client_wlan
 
 
-ENABLE_WLAN_CLIENT = False
+ENABLE_WLAN_CLIENT = True
 ENABLE_CUDA = True
-IP_ADDRESS = "192.168.1.194"
+IP_ADDRESS = "raspberrypi.local"
 
 
 # Function for clearing the console
@@ -46,7 +46,8 @@ def main():
     try:
         while True:
             # record a given amount of audio (see SECONDS and MINUTES)
-            print("Recording...", end="\r")
+            cls()
+            print("Recording...")
             stream = p.open(
                 format=SAMPLE_FORMAT,
                 channels=CHANNELS,
@@ -60,7 +61,8 @@ def main():
                 frames.append(data)
             stream.stop_stream()
             stream.close()
-            print("Finished recording.", end="\r")
+            cls()
+            print("Finished recording.")
 
             # save audio file
             audioFile = wave.open(FILENAME, "wb")
@@ -84,6 +86,7 @@ def main():
                 elif "backward" in response or "back" in response:
                     c.send_command("backward")
 
+            cls()
             print(response)
 
             os.remove(FILENAME)
