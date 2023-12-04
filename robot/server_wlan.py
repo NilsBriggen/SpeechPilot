@@ -9,7 +9,7 @@ class Server:
         cls()
         # Create a TCP/IP server on port 12345
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.server_address = ('', 12345)
+        self.server_address = ('raspberrypi.local', 12345)
         self.server_socket.bind(self.server_address)
         self.server_socket.listen(1)
         print(f"Server started, waiting for client connection (ip: {self.server_address[0]}:{self.server_address[1]})...")
